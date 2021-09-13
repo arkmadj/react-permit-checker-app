@@ -1,0 +1,33 @@
+.card {
+    display: flex;
+    background: red;
+    width: 20%;
+    padding: 20px 15px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: space-between;
+    /* height: 150px; */
+}
+
+.card_left {
+    display: flex;
+    flex-direction: column;
+    /* background: greenyellow; */
+    flex-grow: 1;
+}
+
+.card_right {
+    flex-grow: 1;
+    /* background: blue; */
+    display: flex;
+    flex-direction: center;
+    justify-content: left;
+}
+
+.title{
+    font-size: 16px;
+}
+
+.amount {
+    font-size: 50px;
+}

@@ -1,0 +1,28 @@
+.sidebarItem  {
+  height: 50px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  transition: all 0.4s ease;
+}
+
+.sidebarLink {
+  /* background: red; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.sidebarItem:hover{
+    background: #1D1E29;
+    border-radius: 12px;
+}
+
+.sidebarItem:last-child{
+    position: absolute;
+    bottom: 0;
+    pointer-events: none;
+}

@@ -1,0 +1,19 @@
+.layout {
+    background: #242633;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    color: white
+}
+
+.main {
+    width: 100%;
+}
+
+.mainContent {
+    background: #1D1E29;
+    width: 98%;
+    height: 90%;
+    border-radius: 25px;
+    padding: 10px;
+}

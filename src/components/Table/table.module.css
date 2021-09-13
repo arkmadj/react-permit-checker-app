@@ -1,0 +1,91 @@
+.table_title_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.table_title {
+  font-size: 24px;
+  font-weight: 500;
+  flex-grow: 1;
+}
+
+.table_actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.table_container {
+    margin-top: 30px;
+    border: 1px solid #2f303c;
+    border-radius: 20px;
+    height: 55vh;
+}
+
+.table_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 900;
+    padding: 0px 10px;
+    height: 50px;
+}
+
+.table_header span:nth-child(1),.table_link span:nth-child(1){
+  /* background: powderblue; */
+  width: 10%;
+}
+
+.table_header span:nth-child(2),.table_link span:nth-child(2){
+  /* background: orange; */
+  width: 15%;
+}
+
+.table_header span:nth-child(3),.table_link span:nth-child(3){
+  /* background: red; */
+  width: 30%;
+}
+
+.table_header span:nth-child(4),.table_link span:nth-child(4){
+  /* background: blue; */
+  width: 15%;
+}
+
+.table_header span:nth-child(5),.table_link span:nth-child(5){
+  /* background: greenyellow; */
+  width: 10%;
+}
+
+.table_row{
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  align-items: center;
+  padding: 0px 10px;
+  cursor: pointer;
+  transition: all 0.4s ease-in;
+}
+
+.table_row:nth-child(even){
+  background: #232533;
+}
+
+.table_row:hover{
+  background: #17181c;
+}
+
+.table_link {
+  text-decoration: none;
+  color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+/* .table_link span{
+  background: red;
+} */
